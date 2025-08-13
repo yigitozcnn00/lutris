@@ -586,6 +586,17 @@ msgid ""
 "If you know the Lutris identifier for the game, you can provide it for "
 "improved Lutris integration, such as Lutris provided banners."
 msgstr ""
+"Kuracağınız oyunun adını girin.\n"
+"\n"
+"Aşağıdaki 'Yükle' düğmesine tıkladığınızda, yükleyici penceresi açılacak ve "
+"sizi basit bir kurulum sürecinde yönlendirecektir.\n"
+"\n"
+"Sizden bir kurulum çalıştırılabilir dosyası isteyecek ve Wine kullanarak "
+"kurulumu gerçekleştirecektir.\n"
+"\n"
+"Oyunun Lutris tanımlayıcısını biliyorsanız, bunu sağlayarak Lutris "
+"entegrasyonunu geliştirebilir ve Lutris tarafından sunulan afişleri "
+"kullanabilirsiniz."
 
 #: lutris/gui/addgameswindow.py:436
 msgid "32-bit Wine prefix"
@@ -627,15 +638,22 @@ msgid ""
 "When you click 'Install' below, the installer window will appear and load "
 "the script, and it will guide the process from there."
 msgstr ""
+"Lutris kurulum betikleri, Lutris’i kurulum süreci boyunca yönlendiren YAML "
+"dosyalarıdır.\n"
+"\n"
+"Bu betikler Lutris.net üzerinden edinilebilir veya elle yazılabilir.\n"
+"\n"
+"Aşağıdaki 'Yükle' düğmesine tıkladığınızda yükleyici penceresi açılacak, "
+"betiği yükleyecek ve buradan itibaren süreci yönlendirecektir."
 
 #: lutris/gui/addgameswindow.py:534
 msgid "You must select a script file to install."
-msgstr ""
+msgstr "Kurulum için bir betik dosyası seçmelisiniz."
 
 #: lutris/gui/addgameswindow.py:536 lutris/gui/addgameswindow.py:578
 #, python-format
 msgid "No file exists at '%s'."
-msgstr ""
+msgstr "'%s' konumunda herhangi bir dosya bulunmuyor."
 
 #: lutris/gui/addgameswindow.py:551 lutris/runners/atari800.py:36
 #: lutris/runners/jzintv.py:19 lutris/runners/libretro.py:77
@@ -657,6 +675,12 @@ msgid ""
 "When you click 'Install' below, the process of installing the game will "
 "begin."
 msgstr ""
+"Lutris, bir ROM’u MD5 karması (hash) aracılığıyla tanıyacak ve oyun "
+"bilgilerini Lutris.net üzerinden indirecektir.\n"
+"\n"
+"Bu işlem için kullanılan ROM verileri TOSEC projesinden alınmaktadır.\n"
+"\n"
+"Aşağıdaki 'Yükle' düğmesine tıkladığınızda oyunun kurulum süreci başlayacaktır."
 
 #: lutris/gui/addgameswindow.py:576
 msgid "You must select a ROM file to install."
@@ -680,6 +704,12 @@ msgid ""
 "numerical-id.\n"
 "To install a game, add lutris:install/game-identifier."
 msgstr ""
+"Bir oyunu doğrudan çalıştırmak için lutris:rungame/oyun-tanımlayıcısı "
+"parametresini ekleyin.\n"
+"Birden fazla oyun aynı tanımlayıcıyı paylaşıyorsa, (lutris --list-games "
+"komutu çalıştırıldığında görüntülenen) sayısal kimliği kullanabilir ve "
+"lutris:rungameid/sayısal-kimlik şeklinde ekleyebilirsiniz.\n"
+"Bir oyunu kurmak için lutris:install/oyun-tanımlayıcısı parametresini ekleyin."
 
 #: lutris/gui/application.py:120
 msgid "Print the version of Lutris and exit"
@@ -824,6 +854,8 @@ msgid ""
 "<i>(Italic indicates that this option is modified in a lower configuration "
 "level.)</i>"
 msgstr ""
+"<i>(İtalik, bu seçeneğin daha alt bir yapılandırma seviyesinde "
+"değiştirildiğini gösterir.)</i>"
 
 #: lutris/gui/config/boxes.py:319
 #, python-format
@@ -863,18 +895,25 @@ msgid ""
 "If modified, these options supersede the same options from the base runner "
 "configuration."
 msgstr ""
+"Bu seçenekler değiştirildiğinde, temel çalıştırıcı yapılandırmasındaki aynı "
+"seçeneklerin yerini alır ve onlara öncelik tanır."
 
 #: lutris/gui/config/boxes.py:672
 msgid ""
 "If modified, these options supersede the same options from the base runner "
 "configuration, which themselves supersede the global preferences."
 msgstr ""
+"Bu seçenekler değiştirildiğinde, temel çalıştırıcı yapılandırmasındaki aynı "
+"seçeneklerin yerini alır; temel çalıştırıcı yapılandırması ise genel "
+"tercihlerin yerine geçer."
 
 #: lutris/gui/config/boxes.py:678
 msgid ""
 "If modified, these options supersede the same options from the global "
 "preferences."
 msgstr ""
+"Bu seçenekler değiştirildiğinde, genel tercihlerdeki aynı seçeneklerin "
+"yerini alır ve onlara öncelik tanır."
 
 #: lutris/gui/config/common.py:28
 msgid "Select a runner in the Game Info tab"
